@@ -1,7 +1,64 @@
+JavaScript
+基于对象的脚本语言
+解释执行
+代码以纯文本形式存储
+类型宽松
+Netscape公司和Sun公司联手完成
+JavaScript功能
+表单确认
+页面修饰以及特殊效果
+导航系统
+基本数学运算
+动态文档生成
+JavaScript特点
+脚本编写
+基于对象
+简单
+安全
+动态
+跨平台
+JavaScript语法
+区分大小写
+变量 myTest、myTEST是不同的变量
+变量是弱类型
+行结尾加分号
+括号表明代码块
+注释通用简单
+在浏览器中逐条解释执行，如果某条语句出现错误，后面的语句将不
+能执行。
+
 了解JavaScript数据类型；
+五种原始类型（简单类型）
+Undefined-未定义类型
+未被赋值的变量，值为undefined
+Null-空类型
+值为null，尚不存在的对象
+Boolean-布尔类型
+值为true/false
+Number-数字类型
+任何数字（NaN也是number类型，表示“非数”）
+String-字符串类型
+值用引号（单引号或者双引号）括起来
+数据类型—— 一种复杂类型
+Object
+
 了解异常处理语句；
 了解嵌套函数；
 理解JavaScript简介及使用；
+基本使用:2种方式使用,script标签内,script标签的属性src
+变量 弱类型 使用var关键字定义变量,变量是储存临时数据的内存空间
+运算符 赋值,关系,算数,逻辑
+表达式:由变量或常量,运算符组成的式子
 掌握JavaScript基本语法
 掌握流程控制语句；
+1.条件语句if,if-else,if-else if-[else],嵌套if,switch(等值判断,转if-else)
+2.循环语句while,do-while,for,for-in
+3.跳转语句break,continue
 掌握函数的定义和调用；
+定义:定义函数 简单且常用的方式 function 函数名(形参1,形参2'''')
+另外一种定义函数的方式:var 函数名=new function(形参1,形参2)
+2.调用函数
+3种情况调用
+脚本直接调用:函数名(实参)
+a的href<a href="javascript:函数名(实参)">
+事件触发:onclick="函数名"(实参)
