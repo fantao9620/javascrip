@@ -29,9 +29,9 @@ g:全局,i:忽略大小写,m:多行
 掌握常用的正则 了解元字符；
 var patten=/^匹配的字符$/
 举例:手机号15开头或13开头的11位手机号
-var phone_patten=/^15|13d/{9}$/
+var phone_patten=/^15|13\d{9}$/
 身份证号:
-var id_patten=/^d/{15}|d]/{18}|d/{17}[xX]$/
+var id_patten=/^\d{15}|\d{18}|\d{17}[xX]$/
 掌握JavaScript内置对象；
 
 
