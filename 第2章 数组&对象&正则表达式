@@ -1,9 +1,37 @@
-了解Array对象的常用方法；
+了解Array对象的常用方法；掌握数组的创建和使用；
+var  array1= new Array();
+var array1=new Array(6);
+var array1=new Array('a','b','c');
+var array1=['a','b','c']
+访问 单个:array1[索引]
+遍历for,for-in
 了解对象的创建；
-了解元字符；
+定义1.var obj=new object();
+obJ.属性名=属性值;
+定义2.var obj={
+属性名:属性值//支出属性名可以加引号}
+访问:obj.属性名,obj['属性名']
+3.内置对象Global,date,math,String对象
+Date 常用方法;new Date()获取当前日期时间
+new Date(年,月,日,时,分秒)
+getxxx()方法,setxxx()
+math最常用:向上取整,向下取整,四舍五入,随机数
+String常用;charAt(i),
+截取子串:slice(),substring(),substr()
+获取字符的位置:indexOf,lastIndexOf()
+
 理解对象的使用；
-理解正则表达式
-掌握数组的创建和使用；
+理解正则表达式 掌握RegExp对象、String的正则表达式方法 
+var patten=new regExp('匹配的字符')
+var patten=/'匹配的字符'/gim
+g:全局,i:忽略大小写,m:多行
+
+掌握常用的正则 了解元字符；
+var patten=/^匹配的字符$/
+举例:手机号15开头或13开头的11位手机号
+var phone_patten=/^15|13d/{9}$/
+身份证号:
+var id_patten=/^d/{15}|d]/{18}|d/{17}[xX]$/
 掌握JavaScript内置对象；
-掌握RegExp对象、String的正则表达式方法
-掌握常用的正则
+
+
