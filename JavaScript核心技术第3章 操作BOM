@@ -3,3 +3,15 @@
 掌握窗口操作；
 掌握定时执行；
 掌握document对象；
+
+1.定时 setinterval(函数,毫秒) 每隔指定的毫秒数,执行一次函数 ,会执行多次 
+setTimeOut(函数,毫秒) 从运行到这个代码开始间隔指定毫秒数,执行一次函数,只执行一次
+2.document 访问网页元素,
+     2.1getElementById("元素id的值")  通过方法
+      2.2document.Images[0];document.Images["name的值"]  通过集合
+      2.3document.Images.name的值;document.name的值   通过名称
+ 3.location 由事件触发执行跳转页面的函数
+ <input type="button"  onclick="toPage()"/>
+ function toPage(){
+ location.href="要跳转的页面"
+ }
