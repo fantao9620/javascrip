@@ -1,0 +1,38 @@
+了解什么是DOM；
+DOM（Document Object Model）即文档对象模型，针对HTML和XML文档的API（
+应用程序接口）。
+DOM描绘了一个层次化的节点树，运行开发人员添加、移除和修改页面的某一部
+分。
+DOM脱胎于Netscape及微软公司创始的DHTML（动态HTML），但现在它已经成为
+表现和操作页面标记的真正跨平台、语言中立的方式。
+DOM中的三个字母
+D（文档）可以理解为整个Web加载的网页文档；
+O（对象）可以理解为类似window对象之类的东西，可以调用属性和方法，这里我们
+说的是document对象；
+M（模型）可以理解为网页文档的树型结构。
+DOM有三个等级
+分别是DOM1、DOM2、DOM3
+DOM1在1998年10月成为W3C标准。
+DOM1所支持的浏览器包括IE6+、Firefox、Safari、Chrome和Opera1.7+。
+DOM 2通过对原有DOM的扩展，增加了对鼠标和用户界面事件、范围、遍历和层
+叠样式表（CSS）的支持
+DOM 2也对DOM 1的核心进行了扩展，从而可支持XML命名空间
+DOM3通过引入统一方式载入和保存文档和文档验证方法对DOM进行进一步扩展
+DOM3核心扩展后可支持XML1.0的所有内容，包括XML Infoset、 XPath、和XML
+Base
+了解节点树；
+加载HTML页面时，Web浏览器生成一个树型结构，用来表示页面内部结构。
+DOM将这种树型结构理解为由节点组成。
+节点种类
+元素节点
+文本节点
+属性节点
+node节点属性
+节点分为元素节点、属性节点和文本节点
+节点属性分为nodeName、nodeType和nodeValue
+节点类型 nodeName nodeType nodeValue
+元素 元素名称 1 null
+属性 属性名称 2 属性值
+文本 #text 3 文本内容(不包含html)
+掌握DOM遍历；
+掌握DOM的使用；
