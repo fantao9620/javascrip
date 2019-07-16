@@ -1,0 +1,17 @@
+1.事件处理
+单击\键盘\鼠标onmouseover onmouseout(等价于hover)
+2.html dom
+文本域事件:onfocus()\onblur()\onchange()
+checkbox和radio的input控件中的checked属性 被选中的值是true,否则是false
+3.select使用的属性options\selectedindex\value\text和事件onchange()
+表单验证
+思路
+3.1失去焦点事件触发函数检测相应的域(对应的input输入框)
+3.2检测相应的域函数:用正则表达式和输入的值对比检测
+pattenval.test(value)
+如果不满足规则,就在提示区域显示提示语句(span元素.innerHTML='提示语句'),返回false
+否则清理提示区域(span元素.innerHTML=''),返回true
+3.3 提交表单事件对应form标签里的属性onsubmit()触发函数
+此函数先定义一个标记是否提交的,默认通过验证的
+依次判断检测相应的域函数(执行步骤2),如果检测结果不通过,标记为false
+最后返回true
